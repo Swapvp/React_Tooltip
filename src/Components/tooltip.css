@@ -1,0 +1,20 @@
+.tooltip-container{
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip{
+    position: absolute;
+    top: calc(35% - 50px);
+    transform: translateX(-20%);
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 16px;
+    min-width: 150px;
+}
+
+.hover-me {
+    cursor: pointer;
+}
